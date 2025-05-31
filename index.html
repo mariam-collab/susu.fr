@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Susu </title>
+  <link rel="stylesheet" href="/dist/output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body class="font-sans text-base font-medium">
+  <button class="fixed bottom-4 right-4 bg-green-500 text-white rounded-md p-4 px-4 shadow-lg hover:bg-[#0080008e]">
+  Contacter nous sur WhatsApp
+</button>
+
+  <header
+    class=" bg-blue-900 sticky top-0 z-50 w-full flex items-center justify-between px-8 py-6  md:bg-white text-lg">
+    <!-- Logo -->
+    <a href="#">
+      <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/6197a36b0f41f8b418d3badb_logo.png"
+        alt="Logo" class="h-8">
+    </a>
+
+    <!-- Navigation -->
+    <nav class="hidden md:flex space-x-10 text-blue-900 font-medium">
+      <a href="#" class="hover:text-orange-500 ">Nos offres</a>
+      <a href="#" class="hover:text-orange-500">Assurance santé en <br> Afrique</a>
+      <a href="#" class="hover:text-orange-500">Bouquets <br> santé</a>
+      <a href="#" class="hover:text-orange-500">Association</a>
+      <a href="#" class="hover:text-orange-500">Blog</a>
+    </nav>
+
+    <!-- Buttons -->
+    <div class="hidden md:flex items-center space-x-4">
+      <a href="#"
+        class="bg-orange-500 border-2 border-orange-500 text-white  px-4 py-2 rounded-md text-sm hover:bg-white transition">+33
+        4 81 69 48 48</a>
+      <a href="#"
+        class="border-2 border-orange-500 text-orange-500 px-4 py-2 rounded-md text-sm hover:bg-orange-500 transition hover:text-white">Demander
+        un devis</a>
+    </div>
+
+    <!-- Burger Menu (Mobile) -->
+    <div class="md:hidden">
+      <button id="burger" class="text-3xl">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Optionnel : menu mobile -->
+  <div id="mobile-menu" class="md:hidden hidden flex-col space-y-2 px-6 py-4 bg-blue-900 text-white shadow">
+    <a href="#" class="block text-white hover:text-orange-500">Nos offres</a>
+    <a href="#" class="block text-white hover:text-orange-500">Assurance santé en Afrique</a>
+    <a href="#" class="block text-white hover:text-orange-500">Bouquets santé</a>
+    <a href="#" class="block text-white hover:text-orange-500">Association</a>
+    <a href="#" class="block text-white hover:text-orange-500">Blog</a>
+    <a href="#" class="block text-white hover:text-orange-500">Contact</a>
+    <a href="#" class="block text-white hover:text-orange-500">Demander un devis</a>
+  </div>
+
+  <div class="relative w-full h-[500px]  leading-tight flex bg-white">
+    <!-- Image du médecin à gauche -->
+
+    <img class="w-10 h-10 absolute top-[60px] left-5"
+      src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed99669314e11325336e93_icon-eclat1%402x.png"
+      alt="">
+
+    <div class="hidden md:w-[35%]  md:flex  items-end">
+
+      <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed71106e65f478da0ac79b_medecin.png"
+        alt="médecin" class=" md:  " />
+
+    </div>
+
+    <!-- Texte au centre entre les deux images -->
+    <div class=" w-[80%] text-center md:w-[70%] flex items-center leading-tight justify-center relative ">
+      <div class="text-[35px]">
+        <h2 class="text-xl text-blue-900 font-bold">
+          <span class="typed-words text-[45px]"></span>
+        </h2>
+
+        <h1 class=" font-bold text-blue-900">
+          La santé de vos proches au pays
+        </h1>
+        <p class="text-gray-800 text-lg mt-6 font-medium">
+          Offrez le meilleur accès aux soins de santé à vos familles en Afrique.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class=" hidden w-[20%] relative md:flex items-center justify-end bg-gradient-to-tr from-white via-white to-orange-100 md:w-[40%] ">
+      <div class="hidden  md:flex items-end justify-center z-10">
+        <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed6f9c3b992014855030e3_enfants-hp.png"
+          alt="enfants" class="" />
+      </div>
+    </div>
+  </div>
+
+  <section class="relative w-full bg-white pt-26  ">
+    <!-- Image de vague en fond -->
+    <img
+      src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61f2b5c98b23630983720582_fond-vague-main-page1.png"
+      alt="vague" class="absolute top-20 left-1/2 transform -translate-x-1/2  max-w-[2000px] " />
+
+    <!-- Conteneur centré -->
+    <div class="relative z-10 max-w-7xl mx-auto flex justify-around items-center bottom-4 ">
+      <!-- Mère et fils -->
+      <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed6fd3c16dfb02f4cf77da_mere-fils.png"
+        alt="mère et fils" class="w-[300px] md:w-[380px] object-contain" />
+
+      <!-- Mère et fille -->
+      <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed70f61216505f1778d06c_mere-fille.png"
+        alt="mère et fille" class="w-[300px] md:w-[380px] object-contain bottom-20" />
+    </div>
+    <div class=" w-[80%]  md:w-[100%] flex  leading-tight  relative p-20 flex-col gap-8">
+      <div class="text-[40px]">
+        <h1 class="  text-blue-900">
+          Soyez tranquille, <br>
+          nous prenons soin de vos proches
+        </h1>
+        <a href="" class="text-blue-900 text-[20px] font-bold">En savoir plus sur susu</a>
+      </div>
+
+
+
+      <div class="w-[100%]   flex justify-evenly ">
+        <div class="w-[30%]   bg-white rounded-3xl flex-col items-center justify-center flex ">
+          <img class="object-contain h-[200px] "
+            src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed72873b9920544d504715_100%25-complet.png"
+            alt="">
+          <p class="text-2xl text-blue-900 font-semibold mt-0">100% complet</p>
+          <p class="text-gray-400 flex justify-center ml-4 py-6">Une gamme de services complète : assurances santé,
+            bouquets
+            santé personnalisés, offres sur-mesure.</p>
+        </div>
+        <div class="w-[30%]  bg-white rounded-3xl flex-col items-center justify-center flex gap-4">
+          <img class="object-contain h-[200px] "
+            src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed72df15a31865dcb6683b_assistance-100%25-ecoute.png"
+            alt="">
+          <p class="text-2xl text-blue-900 font-semibold mt-0">100% à l'écoute</p>
+          <p class="text-gray-400 flex justify-center ml-4 py-6">Vos proches sont accompagnés par notre service
+            d'assistance
+            disponible pour tous leurs besoins de santé.</p>
+        </div>
+        <div class="w-[30%]  bg-white rounded-3xl flex-col items-center justify-center flex gap-4">
+          <img class="object-contain h-[200px]  "
+            src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed7308f047fe4f0925c8d3_100%25-transparent.png"
+            alt="">
+          <p class="text-2xl text-blue-900 font-semibold mt-0">100% transparent</p>
+          <p class="text-gray-400 flex justify-center ml-4 py-6">Suivez en toute transparence les informations sur vos
+            bénéficiaires depuis notre app digitale.</p>
+        </div>
+
+      </div>
+      <div class="w-full  flex flex-wrap justify-around items-center py-6 ">
+        <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61975cfe0f41f87b3ad247b5_tv5monde.png"
+          alt="">
+        <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61975cfe5cf1e4715c5ede87_france5.png"
+          alt="">
+        <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed774ec20d6262f563412d_canal%2B.png"
+          alt="">
+        <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61975cfe253a48b379c8076c_rfi.png" alt="">
+        <img
+          src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed77593647280e01126433_jeune-afrique.png"
+          alt="">
+        <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed7762175db56ee853c363_africa-radio.png"
+          alt="">
+        <img
+          src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/62a373b1843a2252a5bffe4b_diasporactu-logovf.png"
+          alt="">
+
+      </div>
+  </section>
+
+  <!-- TITRE PRINCIPAL -->
+  <div class="w-full px-6 md:px-20 flex flex-col items-center justify-center text-center gap-4 pt-10">
+    <h1 class="text-blue-900 text-2xl md:text-4xl font-semibold leading-snug">
+      Assurances santé ou suivi personnalisé de vos parents ?
+    </h1>
+    <h3 class="text-blue-900 text-xl md:text-2xl leading-tight">
+      Nous avons ce que vous recherchez 🙂
+    </h3>
+  </div>
+
+  <!-- SECTION ASSURANCE -->
+  <section class="w-full flex flex-col md:flex-row items-center justify-center gap-10 px-6 md:px-20 py-12">
+    <!-- IMAGE -->
+    <div class="w-full md:w-1/2">
+      <img class="w-full object-contain"
+        src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61f102054090e91a4a062793_famille-phone-landscape.png"
+        alt="">
+    </div>
+
+    <!-- TEXTE -->
+    <div class="w-full md:w-1/2">
+      <img class="py-4"
+        src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed7870d458d27fcb9b0a64_assurances-picto.svg"
+        alt="">
+      <p class="text-blue-900 text-xl md:text-2xl font-bold py-2">Assurance</p>
+      <p class="text-gray-500 py-4 md:py-8">
+        Offrez la meilleure couverture santé à vos proches au pays grâce à nos assurances locales ou internationales,
+        couvrant jusqu’à 90% de leurs dépenses médicales.
+      </p>
+      <a href="#"
+        class="text-[#1ac9d7] bg-cyan-100 px-4 py-3 font-semibold rounded-md hover:text-white hover:bg-[#1ac9d7]">
+        Découvrir nos offres d’assurances
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION BOUQUETS -->
+  <section class="w-full flex flex-col md:flex-row items-center justify-center gap-10 px-6 md:px-20 py-12">
+
+
+    <!-- TEXTE -->
+    <div class="w-full md:w-1/2">
+      <img class="py-4"
+        src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed78d8c99e939cf8f402ae_picto-bouquets-santes-personnalises.svg"
+        alt="">
+      <p class="text-blue-900 text-xl md:text-2xl font-bold py-2">Bouquets santé personnalisés</p>
+      <p class="text-gray-500 py-4 md:py-8">
+        Vos parents prennent de l’âge ou souffrent d’une maladie chronique ?<br />
+        Nos bouquets santé sont spécialement conçus pour suivre leur condition et leur apporter un accompagnement
+        personnalisé.
+      </p>
+      <a href="#"
+        class="text-[#1ac9d7] bg-cyan-100 px-4 py-3 font-semibold rounded-md hover:text-white hover:bg-[#1ac9d7]">
+        Découvrir nos bouquets de santé
+      </a>
+    </div>
+
+    <div class="w-full md:w-1/2">
+      <img class="w-full object-contain"
+        src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61f0936e92ee6b4379d214b7_mere-fille-mobile-4.png"
+        alt="">
+    </div>
+
+
+  </section>
+
+
+
+
+  <section class="w-full bg-blue-900 p-6 md:p-10">
+    <div class="w-full px-4 md:px-20 flex flex-col items-center justify-center text-center gap-4 pt-10 py-4">
+      <h1 class="text-white text-2xl md:text-4xl font-semibold leading-snug">
+        Susu, ce sont les clients qui en parlent le mieux
+      </h1>
+      <h3 class="text-gray-200 text-xl leading-tight">
+        Plus de 3000 clients ont souscrit au service, voici ce qu’ils en disent
+      </h3>
+    </div>
+
+    <!-- Conteneur vidéo + carrousel -->
+    <div class="flex flex-col lg:flex-row items-center justify-evenly py-4 px-4">
+      <!-- Vidéo -->
+      <div class="w-full lg:w-auto flex justify-center">
+        <iframe class="rounded-xl w-full max-w-sm md:max-w-md" height="350"
+          src="https://www.youtube.com/embed/wtMHan7EmS0" title="L'équipe Susu simplifie la vie d'Odile !"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <div class="">
+        <div class="w-full max-w-md bg-white p-6 shadow-md flex flex-col items-center space-y-4">
+          <div id="contenuCarrousel" class="transition duration-300 ease-in-out w-full">
+            <!-- contenu injecté -->
+          </div>
+        </div>
+        <div class="flex space-x-2 pt-2">
+          <button id="prevBtn" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-[#1ac9d7]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m6 8l-4 4l4 4m-4-4h20" />
+            </svg>
+          </button>
+          <button id="nextBtn" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-[#1ac9d7]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m18 8l4 4l-4 4M2 12h20" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="w-full md:w-full bg-[#f0f5ff] p-10">
+    <div class="w-full px-6 md:px-20 flex flex-col items-center justify-center text-center gap-4 p-10">
+      <h1 class="text-blue-900 text-2xl md:text-3xl font-semibold leading-snug">
+        Un service conçu par une équipe passionnée et dévouée, <br>au service de la diaspora africaine
+      </h1>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10">
+      <div class="rounded-xl bg-white  h-full min-h-[300px] flex flex-col justify-around p-4 items-center">
+        <img class="w-32"
+          src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed82aa3c612f19eab5461e_par-la-diaspora-logo.png"
+          alt="">
+        <p class="text-gray-500">Découvrez comment la fondatrice Bola Bardet, de la diaspora Béninoise, a fondé Susu
+          après avoir elle-même perdu un être cher.</p>
+      </div>
+      <div class="rounded-xl bg-white h-full min-h-[300px] flex flex-col justify-around p-4 items-center">
+        <img class="w-28"
+          src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/619765100f41f80e4bd2739d_orias.png" alt="">
+        <p class="text-gray-500">Susu est courtier de droit français immatriculé à l'ORIAS sous le numéro 19002738.</p>
+      </div>
+      <div class="rounded-xl bg-white p-4 h-full min-h-[300px] flex flex-col justify-around items-center">
+        <img class="w-28"
+          src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/6243010970b09c4c357591f5_logo-allianz.png"
+          alt="">
+        <p class="text-gray-500">Nous sommes en partenariat avec les meilleurs les assureurs en Afrique : Allianz,
+          Sanlam...</p>
+      </div>
+      <div class="rounded-xl bg-white p-4 h-full min-h-[300px] flex flex-col  justify-around items-center ">
+        <img class="w-28"
+          src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/619765109669eaf32220ba58_bpifrance.png"
+          alt="">
+        <p class="text-gray-500">Nous sommes soutenus par la BPI France, la Banque d’investissement du gouvernement
+          Français.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="w-[100%] bg-orange-500 flex-col flex">
+    <div class="w-full px-4 md:px-20 flex flex-col items-center justify-center text-center gap-4 pt-10 py-4">
+      <h1 class="text-gray-200 text-2xl md:text-4xl font-semibold leading-snug">
+        Suivez notre actualité en direct !
+      </h1>
+      <h3 class="text-gray-200 text-xl leading-tight">
+        Abonnez-vous à notre newsletter hebdomadaire.
+      </h3>
+      <div class="relative w-[60%] py-12 ">
+        <input type="text" placeholder="Indiquez votre e-mail"
+          class="w-full border border-gray-300 rounded-md py-5 px-4 pr-36 focus:outline-none focus:ring-2 focus:ring-blue-500 text-center" />
+        <button
+          class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-orange-500 text-white px-4 py-3 rounded-md w-48">
+          S'inscrire
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="w-full bg-blue-900 px-4 py-6 md:px-10 md:py-10">
+  <h1 class="text-gray-200 text-2xl md:text-4xl font-semibold leading-snug text-center md:text-left">
+    N’attendez plus pour prendre soin de ceux qui <br class="hidden md:block"> ont pris soin de vous ❤️
+  </h1>
+
+  <div class="flex flex-col md:flex-row items-center gap-4 py-8">
+    <a href="#"
+      class="border-2 text-blue-900 px-6 py-3 font-semibold bg-white rounded-md text-sm hover:bg-blue-900 transition hover:text-white">
+      Échanger avec l'équipe
+    </a>
+    <a href="#"
+      class="bg-blue-900 border-2 text-white font-semibold px-6 py-3 rounded-md text-sm hover:bg-white transition hover:text-blue-900">
+      Demander un devis
+    </a>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="flex flex-col min-h-[250px]">
+      <p class="text-gray-500 font-semibold py-2">Nos offres</p>
+      <a href="" class="text-white hover:text-orange-500 py-1">Assurance santé</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Bouquets de santé personnalisés</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Assurance obsèques</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Portail client</a>
+    </div>
+
+    <div class="flex flex-col min-h-[250px]">
+      <p class="text-gray-500 font-semibold py-2">Pourquoi Susu ?</p>
+      <a href="" class="text-white hover:text-orange-500 py-1">Service assistance</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Application de suivi</a>
+    </div>
+
+    <div class="flex flex-col min-h-[250px]">
+      <p class="text-gray-500 font-semibold py-2">À propos</p>
+      <a href="" class="text-white hover:text-orange-500 py-1">L'équipe</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Actualités</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Mentions légales</a>
+    </div>
+
+    <div class="flex flex-col min-h-[250px]">
+      <p class="text-gray-500 font-semibold py-2">Partenariats</p>
+      <a href="" class="text-white hover:text-orange-500 py-1">Associations</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Parrainer un proche</a>
+      <a href="" class="text-white hover:text-orange-500 py-1">Devenir partenaire Susu</a>
+    </div>
+  </div>
+
+  <div class="flex gap-4 flex-wrap  py-6">
+    <!-- Icône Facebook -->
+    <a href="#">
+      <svg class="w-10 h-10 rounded-md bg-[#ffffff4d] hover:bg-[#ffffff8f]" xmlns="http://www.w3.org/2000/svg"
+        width="24" height="24" viewBox="0 0 24 24">
+        <path fill="#fff"
+          d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z" />
+      </svg>
+    </a>
+
+    <!-- Icône Instagram -->
+    <a href="#">
+      <svg class="w-10 h-10 rounded-md bg-[#ffffff4d] hover:bg-[#ffffff8f]" xmlns="http://www.w3.org/2000/svg"
+        width="24" height="24" viewBox="0 0 24 24">
+        <g fill="none" fill-rule="evenodd">
+          <path
+            d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+          <path fill="#fff"
+            d="M16 3a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5zm0 2H8a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3m-4 3a4 4 0 1 1 0 8a4 4 0 0 1 0-8m0 2a2 2 0 1 0 0 4a2 2 0 0 0 0-4m4.5-3.5a1 1 0 1 1 0 2a1 1 0 0 1 0-2" />
+        </g>
+      </svg>
+    </a>
+
+    <!-- Icône Twitter -->
+    <a href="#">
+      <svg class="w-10 h-10 rounded-md bg-[#ffffff4d] hover:bg-[#ffffff8f]" xmlns="http://www.w3.org/2000/svg"
+        width="24" height="24" viewBox="0 0 24 24">
+        <path fill="#fff"
+          d="M22 5.796a8.2 8.2 0 0 1-2.357.646a4.12 4.12 0 0 0 1.805-2.27a8.2 8.2 0 0 1-2.606.996a4.105 4.105 0 0 0-7.097 2.808a4.2 4.2 0 0 0 .105.935a11.65 11.65 0 0 1-8.456-4.287a4.107 4.107 0 0 0 1.27 5.478a4.1 4.1 0 0 1-1.86-.513v.052a4.105 4.105 0 0 0 3.292 4.023a4 4 0 0 1-1.081.143a4 4 0 0 1-.773-.072a4.11 4.11 0 0 0 3.832 2.85A8.26 8.26 0 0 1 2 18.282a11.6 11.6 0 0 0 6.29 1.844A11.594 11.594 0 0 0 19.962 8.453q0-.267-.013-.53A8.4 8.4 0 0 0 22 5.796" />
+      </svg>
+    </a>
+
+    <!-- Icône LinkedIn -->
+    <a href="#">
+      <svg class="w-10 h-10 rounded-md bg-[#ffffff4d] hover:bg-[#ffffff8f]" xmlns="http://www.w3.org/2000/svg"
+        width="16" height="16" viewBox="0 0 16 16">
+        <path fill="#fff"
+          d="M3.44 4.89c.8 0 1.44-.65 1.44-1.44s-.65-1.44-1.44-1.44S2 2.66 2 3.45s.65 1.44 1.44 1.44m2.81 1.09V14h2.48v-3.96c0-1.05.2-2.06 1.49-2.06s1.29 1.2 1.29 2.12V14H14V9.6c0-2.16-.46-3.82-2.98-3.82c-1.21 0-2.02.66-2.35 1.29h-.03v-1.1H6.26Zm-4.05 0h2.49V14H2.2z" />
+      </svg>
+    </a>
+  </div>
+
+  <div class="">
+    <p class="text-gray-500 py-2">© Susu 2021 - Tous droits réservés</p>
+    <p class="text-gray-500 text-sm px-2">
+      Susu est une Société par Actions Simplifiée (SAS) au capital de 250.000€ entièrement libéré et inscrite au registre du commerce et des sociétés de Paris sous le numéro 848 010 286. La société est régie par le Code des Assurances et est immatriculée au Registre ORIAS, sous le numéro 19002738.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const burger = document.getElementById("burger");
+    const menu = document.getElementById("mobile-menu");
+
+    burger.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+    var typed = new Typed(".typed-words", {
+      strings: ["Nous prenons soin de", "Soutra", "Bongwa", "Topato", "Wlibo nan"],
+      typeSpeed: 125,
+      backSpeed: 100,
+      backDelay: 800,
+      startDelay: 250,
+      loop: true,
+      showCursor: false
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const contenu = [
+        `
+        <div class="p-4">
+          <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed813bd9b49d6ca2090fc9_avis-clients.svg" class="mx-auto py-4 ml-8 rounded-md" alt="illustration 4">
+          <p class="text-gray-500 font-meduim py-4">Susu est un bon projet, pour ceux qui en bénéficient cela permet à nos parents à l'étranger de ne plus s'inquiéter pour nous et de recevoir les soins dont nous avons besoin !</p>
+          <p class="text-orange-500 font-semibold">Sandino, 37 ans.<br> <span class="text-orange-500">Bénéficiaire Susu Prime</span>.</p>
+        </div>
+        `,
+        `
+         <div class="p-4">
+          <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed813bd9b49d6ca2090fc9_avis-clients.svg" class="mx-auto py-4 ml-8 rounded-md" alt="illustration 4">
+          <p class="text-gray-500 font-meduim py-4">Qu'est-ce que vous voulez que je vous dise ?
+Vous vous occupez de moi, je suis satisfait !</p>
+          <p class="text-orange-500 font-semibold">Pépé Paul, 58 ans.<br> <span class="text-orange-500">Assuré Susu Care</span>.</p>
+        </div>
+        `,
+        `
+        <div class="p-4">
+          <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed813bd9b49d6ca2090fc9_avis-clients.svg" class="mx-auto py-4 ml-8 rounded-md" alt="illustration 4">
+          <p class="text-gray-500 font-meduim py-4">Avant, lorsque mon enfant était malade, je dépensais beaucoup d'argent dans les soins, les médicaments et les cliniques, car au pays il n'y a pas de sécurité sociale ! Maintenant, grâce à Susu, les coûts sont beaucoup moins élevés et mon enfant bénéficie d'un suivi de qualité.</p>
+          <p class="text-orange-500 font-semibold">François, 42 ans.<br> <span class="text-orange-500">Parrain Susu Plus</span>.</p>
+        </div>
+        `,
+        `
+        <div class="p-4">
+          <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed813bd9b49d6ca2090fc9_avis-clients.svg" class="mx-auto py-4 ml-8 rounded-md" alt="illustration 4">
+          <p class="text-gray-500 font-meduim py-4">Je suis très satisfaite du suivi ! Je bénéficie de bons remèdes et je reçois des appels téléphoniques réguliers pour contrôler mon état de santé.
+          Aujourd’hui je vais beaucoup mieux grâce à Susu !</p>
+          <p class="text-orange-500 font-semibold">Melvin, 36 ans.<br> <span class="text-orange-500">Parrain iyacare</span>.</p>
+        </div>
+        `,
+        `
+        <div class="p-4">
+          <img src="https://cdn.prod.website-files.com/6193bf3fbfba0e43351a94c0/61ed813bd9b49d6ca2090fc9_avis-clients.svg" class="mx-auto  rounded-xl py-4 ml-10" alt="">
+          <p class="text-gray-500 font-meduim py-4">Avec Susu, je suis tranquille ! Mon père peut suivre son hypertension lui-même grâce au tensiomètre fourni par Susu, en plus un infirmier lui rend régulièrement visite pour contrôler que tout va bien !</p>
+          <p class="text-orange-500 font-semibold">Yaya, 57 ans.<br> <span class="text-orange-500">Bénéficiaire Susu Prime</span>.</p>
+        </div>
+        `
+      ];
+
+      let index = 0;
+      const conteneur = document.getElementById("contenuCarrousel");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+
+      function afficherContenu() {
+        conteneur.innerHTML = contenu[index];
+      }
+
+      prevBtn.addEventListener("click", () => {
+        index = (index - 1 + contenu.length) % contenu.length;
+        afficherContenu();
+      });
+
+      nextBtn.addEventListener("click", () => {
+        index = (index + 1) % contenu.length;
+        afficherContenu();
+      });
+
+      afficherContenu(); // au chargement
+    });
+
+
+
+  </script>
+</body>
+
+</html
